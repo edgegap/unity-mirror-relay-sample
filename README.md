@@ -1,2 +1,5 @@
 # unity-mirror-relay-sample
-Relay sample for the Mirror netcode on Unity
+Sample using Edgegap's relay transport with the Mirror netcode on Unity.
+
+## Tutorial
+You can see the [full documentation here](https://docs.edgegap.com/docs/relay-transports-samples).
