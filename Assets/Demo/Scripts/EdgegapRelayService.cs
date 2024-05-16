@@ -29,7 +29,6 @@ public static class EdgegapRelayService
             users = new List<Users>()
         };
 
-        //For the sake of a demo, I hardcoded Ips **EDIT using IP lookup instead, otherwise the session is not authorized
         for (var i = 0; i < numPlayer; i++)
         {
             HttpResponseMessage ipRes = await _httpClient.GetAsync($"{API_URL}/v1/ip");
